@@ -50,10 +50,6 @@ class FavoriteCell: UITableViewCell {
         brandTitleLabel.text = data.brand
         clothTitleLabel.text = data.clothe_type.title
         priceLabel.text = "\(data.id)₽"
-        print(brandTitleLabel.font)
-        print(clothTitleLabel.font)
-        print(priceLabel.font)
-        print(addToCartButton.titleLabel?.font)
 
 
     }
